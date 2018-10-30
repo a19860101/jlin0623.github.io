@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            background-color: gray;
+        }
+        .wrapper{
+            width: 1024px;
+            margin: auto;
+        }
+        .clearfix::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .box{
+            width: calc(100% /2);
+            float: left;
+            padding: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper clearfix">
+            <div class="box">
+                 <H1>Title</H1>
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo saepe sint beatae repellendus optio, molestias facilis nemo ad. Ipsa, temporibus.</p>
+            </div>
+            <div class="box">
+                 <H1>Title</H1>
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo saepe sint beatae repellendus optio, molestias facilis nemo ad. Ipsa, temporibus.</p>
+            </div>
+            <div class="box">
+                 <H1>Title</H1>
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo saepe sint beatae repellendus optio, molestias facilis nemo ad. Ipsa, temporibus.</p>
+            </div>
+            <div class="box">
+                 <H1>Title</H1>
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo saepe sint beatae repellendus optio, molestias facilis nemo ad. Ipsa, temporibus.</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

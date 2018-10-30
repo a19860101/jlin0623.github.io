@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: "微軟正黑體";
+            box-sizing: border-box;
+        }
+        .container {
+            width: 1200px;
+            height:400px;
+            background-color: #aaa;
+            text-align: center;
+            font-size: 0;
+        }
+        
+        .text {
+            /* background-color: #2debbb; */
+            display: inline-block;
+            vertical-align: middle;
+            width: 200px;
+            font-size: 16px;
+            text-align: left;
+            padding: 0 30px;
+        }
+        .pic {
+            display: inline-block;
+            vertical-align: middle;
+            /* width: 200px;
+            height: 200px; */
+            background-color: #0af;
+        }
+        .container::before{
+            content: "";
+            height: 100%;
+            vertical-align: middle;
+            display: inline-block;
+        }
+        .container2::before{
+            content: "";
+            height: 100%;
+            vertical-align: middle;
+            display: inline-block;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="pic">
+            <img src="12.jpg" alt="">
+        </div>
+        <div class="text">
+            <h2>title</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quisquam sint omnis atque. Rem nulla nostrum ducimus veritatis alias maiores nihil inventore eos, labore beatae facere dolore repudiandae non et.
+            </p>
+            <a href="#">More</a>
+        </div>
+        <div class="text">
+                <h2>title</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quisquam sint omnis atque. Rem nulla nostrum ducimus veritatis alias maiores nihil inventore eos, labore beatae facere dolore repudiandae non et.
+                </p>
+                <a href="#">More</a>
+            </div>
+        <div class="pic">
+                <img src="12.jpg" alt="">
+            </div>                   
+    </div>
+    
+</body>
+</html>

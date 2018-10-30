@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{
+        box-sizing: border-box;
+    }
+    .container{
+        width: 100%;
+        background-color: #ccc;
+        padding-top:20px;
+        padding-bottom:20px;  
+    }
+    .wrapper{
+        width: 1024px;
+        margin: auto;
+    }
+    .clearfix::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .logo{
+          float: left;
+    }
+    .menu{
+        float: left;
+        padding-top: 70px;  
+    }
+    .login{
+        float: right;
+        padding-top:70px;
+    }
+    a{
+        color: #000;
+        text-decoration: none;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="wrapper clearfix">
+    <!-- 左邊 -->
+    <div class="logo">
+            <a href="https://www.asus.com/tw/" title="ASUS台灣"><img src="ASUS.png" alt="測試圖片" border="0"></a>   
+    </div>
+    <!-- 中間 -->
+    <div class="menu">
+        <a href="#">產品</a>
+        <a href="#">熱門活動</a>
+        <a href="#">商用電腦</a>
+        <a href="#">服務&社群</a>
+        <a href="#">商店</a>
+    </div>
+    <div class="login">
+        <a href="#">登入</a>
+        <a href="#">搜尋</a>
+    </div>
+</div>
+</div>
+</body>
+</html>
