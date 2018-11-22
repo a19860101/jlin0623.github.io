@@ -1,0 +1,129 @@
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+nav .logo {
+    /* float: left; */
+}
+nav .menu {
+    /* float: right; */
+}
+nav li {
+    /* float: left; */
+}
+nav a {
+    color: #eee;
+    padding: 15px;
+    display: block;
+    transition: all .7s;
+}
+nav .menu a:hover{
+    background-color: #e04;
+}
+@media screen and (min-width: 540px){
+    nav {
+        background-color: #333;
+        padding: 10px 0;
+    }
+    nav .logo {
+        float: left;
+    }
+    nav .menu {
+        float: right;
+    }
+    nav li {
+        float: left;
+    }
+    nav a {
+        color: #eee;
+        padding: 15px;
+        display: block;
+        transition: all .7s;
+    }
+    nav .menu a:hover{
+        background-color: #e04;
+    }
+}
+/* header Start */
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.4)),url(https://source.unsplash.com/random/1600x600);
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align:center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 72px;
+}
+
+header p {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+/* about */
+#about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #fff3bb;
+}
+
+/* ad */
+#ad {
+    background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.4)),url(https://source.unsplash.com/random/1600x300);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff; 
+
+    /* font-size 歸零是因為要對齊 */
+    font-size: 0px;
+    
+}
+/* 下面為對齊 取消浮動 轉區塊 置中 還字體大小*/
+.ibc {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+/* service Start */
+#service {
+    font-size: 0;
+    background-color: rgb(113, 172, 238);
+    padding: 100px;
+}
+
+#service p {
+    padding: 30px 0;
+}
+#service-2 {
+    font-size: 0;
+    background-color: rgb(180, 146, 199);
+    padding: 100px;
+}
+
+#service-2 p {
+    padding: 30px 0;
+}
+footer {
+    background-color: #222;
+    color: #FFF;
+    padding: 100px 0;
+}
+#copyright {
+    padding: 30px 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
